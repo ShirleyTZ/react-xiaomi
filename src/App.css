@@ -265,7 +265,12 @@ body {
 	height: 30px;
 	position: absolute;
 	right: 30px;
-	bottom: 0px;
+  bottom: 0px;
+}
+#slideshow {
+  width: 1226px;
+  height:450px;
+  position: relative;
 }
 #rightbottombutton li {
   text-decoration: none;
