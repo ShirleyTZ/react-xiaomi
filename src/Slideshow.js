@@ -12,10 +12,12 @@ class Slideshow extends Component {
     }
 
     componentDidMount(){
+        if(document.getElementById("div") !== null) {
         this.timerId = setInterval(
             () => this.timer(),
             2000
         )
+    }
     }
     componentWillUnmount() {
         clearInterval(this.timerID);

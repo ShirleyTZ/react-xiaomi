@@ -1,0 +1,130 @@
+.clearfloat {
+    clear: both;
+  }
+  
+  body,li,ul,div {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body {
+    min-width: 1226px;
+  }
+
+
+
+#about {
+    width: 100%;
+    border-top: 1px solid grey;
+    box-shadow: 0px 10px 15px -15px grey; 
+    background-color: white;
+}
+
+#navSwitch {
+    width: 1226px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+#leftButton {
+    position: absolute;
+    font-size: 15px;
+    padding: 0px;
+    top: 0px;
+    left:260px;
+}
+
+.cutOffRule {
+    font-size: 15px;
+    margin: 5px;
+}
+#aboutProduct {
+    position: absolute;
+    font-size: 15px;
+    right: 0px;
+    top: 0px;
+}
+
+/*登录提醒*/
+#logInWarn {
+    text-align: center;
+    background-color: rgb(236, 231, 234);
+    opacity: 0.5;
+}
+#logInWarn a {
+    margin-left: 15px;
+    color: brown;
+}
+#logInWarn span {
+    margin:10px;
+    font-size: 15px;
+    color: black;
+    
+}
+
+/*产品*/
+#showProduct {
+    width: 1226px;
+    margin: auto;
+    position: relative;
+    min-height: 560px;
+    margin-bottom: 50px;
+}
+#productsImgBox{
+    position: absolute;
+    top:0px;
+    left:0px;
+    overflow: hidden;
+}
+.productsImg {
+    width:560px;
+    height:560px;
+    display: none;
+}
+#aboutproduct {
+    margin-left: 600px;
+    height:500px;
+}
+#aboutproduct h2 {
+    font-family: cursive;
+}
+
+#price {
+    font-size: 20px;
+    color: brown;
+}
+#price p {
+    margin-bottom: 0px;
+}
+#price div {
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+}
+#price span {
+    font-size: 15px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+#place {
+    height: 90px;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid grey;
+    padding: 20px 0px 15px 0px;
+}
+#place img {
+    float: left;
+    height: 90px;
+    width: 90px;
+}
+#place div {
+    margin-left: 100px;
+    height: 90px;
+}
+
+#red {
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+}

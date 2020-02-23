@@ -43,6 +43,8 @@ body {
 #font {
   background-color: pink;
   height: 90px;
+  text-align: center;
+  color: black;
 }
 /*top两横栏*/
 #TOP {
@@ -88,9 +90,7 @@ body {
 #logomenu {
   height: 50px;
   width: 1226px;
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px auto;
   position: relative;
 }
 #nav-menu {
